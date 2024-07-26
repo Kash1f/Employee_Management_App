@@ -49,7 +49,7 @@ const employees = () => {
             height: 40,
             flex: 1,
           }}
-        >
+         >
           <AntDesign
             style={{ marginLeft: 10 }}
             name="search1"
