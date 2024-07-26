@@ -1,11 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { Redirect } from 'expo-router'
 
 const index = () => {
   return (
-    <View>
-      <Text>Employee App!</Text>
-    </View>
+  <Redirect href="/(home)"/> //this will auto go into the layout and then target the stack screen
   )
 }
 
